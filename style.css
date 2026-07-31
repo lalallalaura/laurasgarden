@@ -294,9 +294,9 @@ body {
     border-radius: 50%;
 }
 .footer-horror {
-    background: linear-gradient(to bottom, #0a0a0a, #000000);
+    background: linear-gradient(to bottom, #fff, #DCE8D8);
     padding: 60px 0 20px;
-    border-top: 3px solid #b20710; /* Linha de "sangue" no topo */
+    border-top: 3px solid #405C36; /* Linha verde */
     color: #e5e5e5;
     margin-top: 80px;
 }
