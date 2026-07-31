@@ -18,7 +18,7 @@ body {
 
 /* NAVBAR CENTRALIZADA COM GRID */
 .navbar {
-    background: rgba(0, 0, 0, 0.95);
+    background: rgba(255, 255, 255);
     border-bottom: 2px solid var(--accent);
     padding: 1rem 5%;
     position: sticky;
