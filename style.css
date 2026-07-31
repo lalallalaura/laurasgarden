@@ -9,6 +9,30 @@
     --text-muted: #888;
 }
 
+#hero{
+    margin-top:0;
+}
+
+.hero-img{
+    height:100vh;
+    object-fit:cover;
+    filter:brightness(.65);
+}
+
+.hero-content{
+    bottom:50%;
+    transform:translateY(50%);
+}
+
+.hero-content h1{
+    font-size:5rem;
+    font-weight:700;
+}
+
+.hero-content p{
+    font-size:1.3rem;
+}
+
 body {
     background: linear-gradient(to right, #fffff, #D6F2C9);
     color: var(--text-primary);
