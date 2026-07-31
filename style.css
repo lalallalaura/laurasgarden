@@ -243,46 +243,92 @@ body {
 
 /* FILTRO LATERAL */
 
+/* FILTRO LATERAL */
+
 .filters {
-    background: #fff;
-    padding: 25px;
-    border-radius: 20px;
+    background: #FDFBF5;
+    padding: 30px;
+    border-radius: 25px;
     border: 1px solid #D6E2CF;
     position: sticky;
     top: 120px;
-    box-shadow:0 10px 30px rgba(64,92,54,.08);
+    box-shadow: 0 10px 25px rgba(64,92,54,.08);
 }
 
 
 .filters h3 {
     font-family: 'Fleur De Leah', cursive;
-    font-size: 2.5rem;
-    color: var(--text-primary);
+    font-size: 3rem;
+    color: #405C36;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 
 .filter-group {
-    margin-top: 25px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #C8D6C0;
 }
 
-.filter-group input {
-    accent-color: #6F8F5F;
+
+.filter-group:last-child {
+    border-bottom: none;
 }
 
 
 .filter-group h5 {
-    color: var(--text-primary);
-    font-size: .9rem;
+    color: #6F8F5F;
+    font-size: .85rem;
+    letter-spacing: 1px;
     text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
+
+/* CHECKBOX PERSONALIZADO */
 
 .filter-group label {
-    display: block;
-    margin: 12px 0;
-    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 14px 0;
+    color: #7A8573;
+    cursor: pointer;
+    transition: .3s;
 }
 
+
+.filter-group label:hover {
+    color: #405C36;
+    transform: translateX(5px);
+}
+
+
+.filter-group input {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #A9C49A;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.filter-group input:checked {
+    background: #6F8F5F;
+}
+
+
+.filter-group input:checked::after {
+    content: "✓";
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    left: 3px;
+    top: -1px;
+}
 
 /* ÁREA DOS PRODUTOS */
 
