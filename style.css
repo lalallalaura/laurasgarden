@@ -487,8 +487,8 @@ body {
     padding: 2px 6px;
     border-radius: 50%;
 }
-.footer-horror{
-    background: linear-gradient(to bottom, #fff, #DCE8D8);
+.footer-cottage{
+    background: linear-gradient(to right, #fffff, #D6F2C9);
     padding:20px 0;
     color:#6FA15E;
     margin-top:80px;
@@ -498,7 +498,7 @@ body {
     font-size: 2rem !important;
 }
 
-.footer-horror h5 {
+.footer-cottage h5 {
     color: #b20710;
     font-weight: 700;
     text-transform: uppercase;
