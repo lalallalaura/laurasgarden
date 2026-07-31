@@ -79,19 +79,13 @@ body {
     padding: 0;
 }
 
-.nav-links a {
-    text-decoration: none;
-    color: var(--text-primary);
-    font-size: 0.9rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: 0.3s;
+
+.nav-links a{
+    transition:.3s;
 }
 
-.nav-links a:hover {
-    color: var(--accent);
-    text-shadow: 0 0 8px var(--accent);
+.nav-links a:hover{
+    color:#AEE092;
 }
 
 .nav-actions {
