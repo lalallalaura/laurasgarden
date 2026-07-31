@@ -296,8 +296,7 @@ body {
 .footer-horror {
     background: linear-gradient(to bottom, #fff, #DCE8D8);
     padding: 60px 0 20px;
-    border-top: 3px solid #405C36; /* Linha verde */
-    color: #fff;
+    color: #DCE8D8;
     margin-top: 80px;
 }
 
