@@ -34,7 +34,7 @@
 }
 
 body {
-    background: linear-gradient(to right, #fffff, #D6F2C9);
+    background: #FAF8F1;
     color: var(--text-primary);
     font-family: 'Montserrat', Elms Sans;
     margin: 0;
@@ -48,7 +48,9 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 5px 20px rgba(64,92,54,.08);
 }
+
 
 .nav-container {
     max-width: 1300px;
@@ -118,7 +120,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.7);
+    background: rgba(64,92,54,.25);
     backdrop-filter: blur(3px);
     opacity: 0;
     pointer-events: none;
@@ -248,6 +250,7 @@ body {
     border: 1px solid #D6E2CF;
     position: sticky;
     top: 120px;
+    box-shadow:0 10px 30px rgba(64,92,54,.08);
 }
 
 
@@ -260,6 +263,10 @@ body {
 
 .filter-group {
     margin-top: 25px;
+}
+
+.filter-group input {
+    accent-color: #6F8F5F;
 }
 
 
@@ -361,16 +368,16 @@ body {
 
 
 .product-card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-6px);
     border-color: var(--accent) !important;
     box-shadow: 0 18px 35px rgba(64,92,54,.18);
 }
 
 
 .card-img-top {
-    height: 320px;
-    object-fit: cover;
-    transition: .5s ease;
+    height:320px;
+    object-fit:cover;
+    border-bottom:1px solid #E8F0E3;
 }
 
 
@@ -423,41 +430,6 @@ body {
     color: white;
 }
 
-.product-title {
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-bottom: 10px;
-    color: var(--text-primary);
-}
-
-.product-desc {
-    font-size: 0.85rem;
-    color: var(--text-muted);
-}
-
-.price-tag {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--accent);
-    margin: 15px 0;
-}
-
-.btn-buy {
-    background-color: transparent;
-    color: var(--text-primary);
-    border: 1px solid var(--accent);
-    padding: 10px 20px;
-    width: 100%;
-    border-radius: 5px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.btn-buy:hover {
-    background-color: var(--accent);
-    color: white;
-}
 
 .badge-cottage {
     position:absolute;
@@ -499,7 +471,7 @@ body {
 }
 
 .footer-cottage h5 {
-    color: #b20710;
+    color:#405C36;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -522,7 +494,7 @@ body {
 }
 
 .footer-links a:hover {
-    color: #b20710;
+    color:#6F8F5F;
     padding-left: 5px;
 }
 
