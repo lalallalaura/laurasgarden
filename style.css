@@ -235,7 +235,7 @@ body {
     display: grid;
     grid-template-columns: 260px 1fr;
     gap: 50px;
-    padding: 80px 5%;
+    padding: 60px 5%;
     background: #FAF8F1;
     align-items: start;
 }
@@ -258,7 +258,7 @@ body {
 
 .filters h3 {
     font-family: 'Fleur De Leah', cursive;
-    font-size: 3rem;
+    font-size: 2.3rem;
     color: #405C36;
     margin-bottom: 25px;
     text-align: center;
@@ -341,12 +341,39 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
+    height: 60px;
 }
 
 
 .products-header h2 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
     color: var(--text-primary);
+}
+
+.products-header select {
+    background: #FDFBF5;
+    border: 1px solid #D6E2CF;
+    border-radius: 30px;
+    padding: 12px 40px 12px 18px;
+    color: #405C36;
+    font-size: .85rem;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+}
+
+
+.products-header select:hover {
+    border-color: #6F8F5F;
+}
+
+
+.products-header select:focus {
+    box-shadow: 0 0 0 3px rgba(111,143,95,.15);
 }
 
 
