@@ -2,10 +2,10 @@
 @import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
 
 :root {
-    --bg-dark: #0a0a0a;       /* Preto profundo */
-    --bg-card: #161616;       /* Cinza escuro para os cards */
-    --accent: #b20710;        /* Vermelho sangue */
-    --text-primary: #e5e5e5;  /* Branco acinzentado */
+    --bg-dark: #fff;       /* Preto profundo */
+    --bg-card: #fff;       /* Cinza escuro para os cards */
+    --accent: #1E6600;        /* Vermelho sangue */
+    --text-primary: #1E6600;  /* Branco acinzentado */
     --text-muted: #888;
 }
 
