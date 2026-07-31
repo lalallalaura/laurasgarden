@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
 
 :root {
@@ -10,7 +10,7 @@
 }
 
 body {
-    background: linear-gradient(to right, #0a0a0a, #000);
+    background: linear-gradient(to right, #fffff, #D6F2C9);
     color: var(--text-primary);
     font-family: 'Poppins', sans-serif;
     margin: 0;
