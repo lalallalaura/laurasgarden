@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Fleur+De+Leah&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
 
 :root {
@@ -12,7 +12,7 @@
 body {
     background: linear-gradient(to right, #fffff, #D6F2C9);
     color: var(--text-primary);
-    font-family: 'Fleur De Leah', Montserrat;
+    font-family: 'Montserrat', Elms Sans;
     margin: 0;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .logo {
-    font-family: 'Creepster', cursive; /* Fonte de terror */
+    font-family: 'Fleur De Leah', cursive; 
     font-size: 1.8rem;
     text-decoration: none;
     color: var(--text-primary);
