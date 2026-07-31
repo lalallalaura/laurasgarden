@@ -3,7 +3,7 @@
 
 :root {
     --bg-dark: #fff;       /* Preto profundo */
-    --bg-card: #fff;       /* Cinza escuro para os cards */
+    --bg-card: #DCE8D8;       /*verde para os cards */
     --accent: #405C36;        /* Verde*/
     --text-primary: #1E6600;  /* Branco acinzentado */
     --text-muted: #888;
