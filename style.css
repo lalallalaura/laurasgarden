@@ -224,9 +224,129 @@ body {
     filter: brightness(1.2);
 }
 
-/* CARDS DE PRODUTO */
-.container {
-    margin-top: 50px;
+
+/* ==========================
+   LOJA / FILTRO + PRODUTOS
+========================== */
+
+.shop-section {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 50px;
+    padding: 80px 5%;
+    background: #FAF8F1;
+    align-items: start;
+}
+
+
+/* FILTRO LATERAL */
+
+.filters {
+    background: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid #D6E2CF;
+    position: sticky;
+    top: 120px;
+}
+
+
+.filters h3 {
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 2.5rem;
+    color: var(--text-primary);
+}
+
+
+.filter-group {
+    margin-top: 25px;
+}
+
+
+.filter-group h5 {
+    color: var(--text-primary);
+    font-size: .9rem;
+    text-transform: uppercase;
+}
+
+
+.filter-group label {
+    display: block;
+    margin: 12px 0;
+    color: var(--text-muted);
+}
+
+
+/* ÁREA DOS PRODUTOS */
+
+.products-area {
+    width: 100%;
+}
+
+
+.products-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+
+.products-header h2 {
+    color: var(--text-primary);
+}
+
+
+/* GRID */
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+
+.product-item {
+    width: 100%;
+}
+
+
+/* ==========================
+   CARDS
+========================== */
+
+
+
+
+
+/* RESPONSIVO */
+
+@media(max-width: 1000px){
+
+    .shop-section {
+        grid-template-columns: 1fr;
+    }
+
+
+    .filters {
+        position: relative;
+        top: 0;
+    }
+
+
+    .products-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+
+@media(max-width:600px){
+
+    .products-grid {
+        grid-template-columns: 1fr;
+    }
+
 }
 
 .product-card {
