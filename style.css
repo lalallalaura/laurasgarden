@@ -3,7 +3,7 @@
 
 :root {
     --bg-dark: #fff;       /* Preto profundo */
-    --bg-card: #DCE8D8;       /*verde para os cards */
+    --bg-card: #fff;       /*branco para os cards */
     --accent: #405C36;        /* Verde*/
     --text-primary: #1E6600;  /* Branco acinzentado */
     --text-muted: #888;
@@ -295,7 +295,6 @@ body {
 }
 .footer-horror {
     background: linear-gradient(to bottom, #fff, #DCE8D8);
-    padding: 20px 0;
     color: ##6FA15E;
     margin-top: 80px;
 }
