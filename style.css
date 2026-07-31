@@ -80,12 +80,19 @@ body {
 }
 
 
-.nav-links a{
-    transition:.3s;
+.nav-links a {
+    text-decoration: none;
+    color: #5F6F52; /* verde musgo cottage */
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.3s;
 }
 
-.nav-links a:hover{
-    color:#AEE092;
+.nav-links a:hover {
+    color: #AEE092; /* verde claro */
+    text-shadow: 0 0 8px #AEE092;
 }
 
 .nav-actions {
