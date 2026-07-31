@@ -350,28 +350,77 @@ body {
 }
 
 .product-card {
-    background-color: var(--bg-card) !important;
-    border: 1px solid #333 !important;
-    border-radius: 10px !important;
-    transition: 0.4s;
+    background: #fff !important;
+    border: 1px solid #E0E8D8 !important;
+    border-radius: 24px !important;
     overflow: hidden;
+    transition: .4s ease;
+    height: 100%;
+    box-shadow: 0 8px 20px rgba(64, 92, 54, 0.08);
 }
+
 
 .product-card:hover {
-    border-color: var(--accent) !important;
     transform: translateY(-10px);
-    box-shadow: 0 0 20px rgba(178, 7, 16, 0.3);
+    border-color: var(--accent) !important;
+    box-shadow: 0 18px 35px rgba(64,92,54,.18);
 }
+
 
 .card-img-top {
-    height: 280px;
+    height: 320px;
     object-fit: cover;
-    filter: grayscale(30%); /* Deixa a imagem mais sombria */
-    transition: 0.4s;
+    transition: .5s ease;
 }
 
+
 .product-card:hover .card-img-top {
-    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+
+.product-card .card-body {
+    padding: 25px;
+}
+
+
+.product-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+
+.product-desc {
+    font-size: .85rem;
+    color: var(--text-muted);
+    min-height: 45px;
+}
+
+
+.price-tag {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin: 18px 0;
+}
+
+
+.btn-buy {
+    background: transparent;
+    color: var(--text-primary);
+    border: 1px solid var(--accent);
+    padding: 12px 20px;
+    width: 100%;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+
+.btn-buy:hover {
+    background: var(--accent);
+    color: white;
 }
 
 .product-title {
@@ -410,17 +459,17 @@ body {
     color: white;
 }
 
-.badge-horror {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: var(--accent);
-    color: white;
-    font-size: 0.7rem;
-    padding: 3px 10px;
-    border-radius: 3px;
-    z-index: 5;
-    font-weight: bold;
+.badge-cottage {
+    position:absolute;
+    top:18px;
+    left:18px;
+    background:#AEE092;
+    color:#405C36;
+    padding:6px 15px;
+    border-radius:50px;
+    font-size:.75rem;
+    font-weight:600;
+    z-index:5;
 }
 
 .cart {
