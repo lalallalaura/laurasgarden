@@ -54,6 +54,8 @@
 
         </div>
 
+        
+
         <div class="carousel-item">
             <img src="img/banner2.jpg" class="d-block w-100 hero-img">
 
@@ -78,14 +80,78 @@
 </div>
 
 </section>
-        
-        <!-- Produto 1 -->
-        <div class="col-md-4 mb-4">
+
+    <section class="shop-section">
+
+    <aside class="filters">
+
+        <h3>Filtrar</h3>
+
+        <div class="filter-group">
+            <h5>Categorias</h5>
+
+            <label>
+                <input type="checkbox"> Velas
+            </label>
+
+            <label>
+                <input type="checkbox"> Chás
+            </label>
+
+            <label>
+                <input type="checkbox"> Vintage
+            </label>
+
+            <label>
+                <input type="checkbox"> Decoração
+            </label>
+        </div>
+
+
+        <div class="filter-group">
+
+            <h5>Preço</h5>
+
+            <label>
+                <input type="checkbox"> Até R$50
+            </label>
+
+            <label>
+                <input type="checkbox"> R$50 - R$150
+            </label>
+
+            <label>
+                <input type="checkbox"> Acima de R$150
+            </label>
+
+        </div>
+
+
+    </aside>
+
+
+
+    <main class="products-area">
+
+        <div class="products-header">
+            <h2>Nossa coleção</h2>
+            <select>
+                <option>Mais recentes</option>
+                <option>Menor preço</option>
+                <option>Maior preço</option>
+            </select>
+        </div>
+
+
+        <div class="products-grid">
+
+            <!-- Produto 1 -->
+        <div class="product-item">
             <div class="product-card card h-100">
-                <div class="badge-horror">Limited</div>
+                <div class="badge-cottage">Artesanal</div>
                 <img src="https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABTVGjJlIal3UArZjcFxuPN1HELBAkPbuKCFcAzG65wYnMkJZxcXJkVIbZrHXqKQkbU6FbfJtTdaeqheaaW-au4XaUUSa85B6dGNt.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h3 class="product-title">Réplica Coraline</h3>
+                    <h3 class="product-title">Chá de hibisco</h3>
                     <p class="product-desc">Boneca com olhos de botão.</p>
                     <div class="price-tag">R$ 199,00</div>
                     <button class="btn-buy" data-name="Réplica Coraline" data-price="199">
@@ -96,11 +162,11 @@
         </div>
 
         <!-- Produto 2 -->
-        <div class="col-md-4 mb-4">
+        <div class="product-item">
             <div class="product-card card h-100">
                 <img src="https://i.ytimg.com/vi/BXXr7dW51-Y/maxresdefault.jpg" class="card-img-top">
                 <div class="card-body">
-                    <h3 class="product-title">Relíquia Annabelle</h3>
+                    <h3 class="product-title">Vela Aromatica</h3>
                     <p class="product-desc">Cópia fiel da boneca.</p>
                     <div class="price-tag">R$ 250,00</div>
                     <button class="btn-buy" data-name="Relíquia Annabelle" data-price="250">
@@ -110,23 +176,14 @@
             </div>
         </div>
 
-        <!-- Produto 3 -->
-        <div class="col-md-4 mb-4">
-            <div class="product-card card h-100">
-                <img src="https://ingresso-a.akamaihd.net/b2b/production/uploads/article/image/4088/f8a92516206c383238e00b1cc300ab11.jpg" class="card-img-top">
-                <div class="card-body">
-                    <h3 class="product-title">Poster Noiva Cadáver</h3>
-                    <p class="product-desc">Poster A3.</p>
-                    <div class="price-tag">R$ 35,00</div>
-                    <button class="btn-buy" data-name="Poster Noiva Cadáver" data-price="35">
-                        Adicionar ao Carrinho
-                    </button>
-                </div>
-            </div>
         </div>
 
-    </div>
-</main>
+
+    </main>
+
+</section>
+        
+       
 <div id="cart-overlay" class="cart-overlay"></div>
 <div id="cart-sidebar" class="cart-sidebar">
     <div class="cart-header">
